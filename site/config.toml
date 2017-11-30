@@ -2,11 +2,11 @@ baseURL = "/"
 languageCode = "es-cl"
 DefaultContentLanguage = "es"
 
-title = "Movilidad Sodimac Documentation"
+title = "Movilidad Sodimac | Open Api Documentation"
 theme = "hugo-theme-docdock"
 
 [params]
-editURL = "https://bitbucket.org/sodimacsa/catalogo-de-servicios/src/master/site/content/"
+editURL = "https://github.com/Mobile-Studio/api-docs/edit/master/site/content/"
 showVisitedLinks = false # default is false
 themeStyle = "original" # "original" or "flex" # default "original"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
@@ -21,9 +21,9 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
-name = "<i class='fa fa-bitbucket'></i>&nbsp;&nbsp;&nbsp;Bitbucket repositorie"
+name = "<i class='fa fa-github'></i>&nbsp;&nbsp;&nbsp;Github repositorie"
 identifier = "ds"
-url = "https://bitbucket.org/sodimacsa/catalogo-de-servicios/"
+url = "https://github.com/Mobile-Studio/api-docs"
 weight = 10
 
 [[menu.shortcuts]]
