@@ -1,27 +1,22 @@
 ---
-title: "PEINAU"
+title: "Introducción"
 description: ""
-weight: 10
+weight: 1
 ---
 
-Si quieres integrar un botón de pagos en tu sitio web de forma fácil, rápida y segura, somos tu mejor opción.
+Movilidad Sodimac con la finalidad de solventar el back-end y la operación de sus aplicaciones móviles, ha disponibilizado una serie de endpints REST, los cuales con base a una robusta arquitectura orientada a microservicios, permiten tener una alta concurrencia de uso, manteniendo su performance de respuesta.
 
-Además, utilizando Peinau nunca verás la información sensible de la tarjeta y con ello le daras mas seguridad a tus clientes.
+Este modelo arquitectónico implementado, faculta a que los diversos endpoints, puedan ser exportados para consumo a los múltiples centros de costo corporativos, de acuerdo a la necesidad que tengan estos mismos (respecto a consumo o integración en sus desarrollos).
 
-**FLUJO DE PAGO**
+Se presenta en este portal, La información de las API, respetando en cada sub página la siguiente estructura:
 
-{{<mermaid align="left">}}
-graph LR;
-    A[Comercio] -->|Proceso de Pago| B(Peinau)
-    B --> C{Medio de Pago}
-    C --> D[Transbank Webpay]
-    C --> E[CMR Crédito]
-    C --> F[CMR Debito]
-    C --> G[Quickpay Token]
-    C --> H[Banco Falabella]
-    D --> I[Comercio]
-    E --> I[Comercio]
-    F --> I[Comercio]
-    G --> I[Comercio]
-    H --> I[Comercio]
-{{< /mermaid >}}
+* Nombre de API
+* Descripción
+* Ambientes
+* Controladores
+* Métodos
+  * Tipo – Nombre
+  * Descripción
+  * URL
+  * Parámetros de Entrada
+  * Response

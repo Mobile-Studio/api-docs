@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   app:
-    image: peinau.azurecr.io/dev-portal:latest
+    image: sodimaccr.azurecr.io/dev-portal:latest
     environment:
       NODE_ENV: sandbox
     networks:

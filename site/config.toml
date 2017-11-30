@@ -1,22 +1,19 @@
 baseURL = "/"
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+languageCode = "es-cl"
+DefaultContentLanguage = "es"
 
-title = "Open API Documentation"
+title = "Movilidad Sodimac Documentation"
 theme = "hugo-theme-docdock"
-themesdir = "./../themes"
-
 
 [params]
-editURL = "https://github.com/Mobile-Studio/api-docs/edit/master/site/content/"
+editURL = "https://bitbucket.org/sodimacsa/catalogo-de-servicios/src/master/site/content/"
 showVisitedLinks = false # default is false
 themeStyle = "original" # "original" or "flex" # default "original"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
-disableHomeIcon = true # default is false
+disableHomeIcon = false # default is false
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
-apiUrl = "https://api.sandbox.connect.fif.tech"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -24,15 +21,10 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
-name = "<i class='fa fa-github'></i>&nbsp;&nbsp;&nbsp;Github repo"
+name = "<i class='fa fa-bitbucket'></i>&nbsp;&nbsp;&nbsp;Bitbucket repositorie"
 identifier = "ds"
-url = "https://github.com/Mobile-Studio/api-docs"
+url = "https://bitbucket.org/sodimacsa/catalogo-de-servicios/"
 weight = 10
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i>&nbsp;&nbsp;&nbsp;How to Contribute"
-url = "/how-to-contribute"
-weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-bullhorn'></i>&nbsp;&nbsp;&nbsp;Credits"
