@@ -2,13 +2,13 @@ baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
-title = "Peinau Documentation"
+title = "Open API Documentation"
 theme = "hugo-theme-docdock"
 themesdir = "./../themes"
 
 
 [params]
-editURL = "https://github.com/Peinau/hugo-dev-portal/edit/master/site/content/"
+editURL = "https://github.com/Mobile-Studio/api-docs/edit/master/site/content/"
 showVisitedLinks = false # default is false
 themeStyle = "original" # "original" or "flex" # default "original"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
@@ -26,7 +26,7 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i>&nbsp;&nbsp;&nbsp;Github repo"
 identifier = "ds"
-url = "https://github.com/Peinau/hugo-dev-portal"
+url = "https://github.com/Mobile-Studio/api-docs"
 weight = 10
 
 [[menu.shortcuts]]
